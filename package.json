@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token=e1f39150cdf3",
+    "chromatic": "npx chromatic --project-token=e1f39150cdf3 --exit-zero-on-changes",
     "lint": "prettier -c src/*.{ts,tsx} && eslint src/*.{ts,tsx}"
   },
   "browserslist": {

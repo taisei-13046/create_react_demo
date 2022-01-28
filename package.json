@@ -23,23 +23,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token=e1f39150cdf3"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ],
-    "overrides": [
-      {
-        "files": [
-          "**/*.stories.*"
-        ],
-        "rules": {
-          "import/no-anonymous-default-export": "off"
-        }
-      }
-    ]
+    "chromatic": "npx chromatic --project-token=e1f39150cdf3 --exit-zero-on-changes",
+    "lint": "prettier -c src/*.{ts,tsx} && eslint src/*.{ts,tsx}"
   },
   "browserslist": {
     "production": [
@@ -62,7 +47,15 @@
     "@storybook/node-logger": "^6.4.14",
     "@storybook/preset-create-react-app": "^4.0.0",
     "@storybook/react": "^6.4.14",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
     "chromatic": "^6.4.1",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^6.0.0",
+    "prettier": "^2.5.1",
     "webpack": "^5.67.0"
   }
 }

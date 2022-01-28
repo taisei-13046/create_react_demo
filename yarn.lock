@@ -3289,7 +3289,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^5.5.0":
+"@typescript-eslint/eslint-plugin@^5.10.1", "@typescript-eslint/eslint-plugin@^5.5.0":
   version "5.10.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.10.1.tgz#870195d0f2146b36d11fc71131b75aba52354c69"
   integrity sha512-xN3CYqFlyE/qOcy978/L0xLR2HlcAGIyIK5sMOasxaaAPfQRj/MmMV6OC3I7NZO84oEUdWCOju34Z9W8E0pFDQ==
@@ -3311,7 +3311,7 @@
   dependencies:
     "@typescript-eslint/utils" "5.10.1"
 
-"@typescript-eslint/parser@^5.5.0":
+"@typescript-eslint/parser@^5.10.1", "@typescript-eslint/parser@^5.5.0":
   version "5.10.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.10.1.tgz#4ce9633cc33fc70bc13786cb793c1a76fe5ad6bd"
   integrity sha512-GReo3tjNBwR5RnRO0K2wDIDN31cM3MmDtgyQ85oAxAmC5K3j/g85IjP+cDfcqDsDDBf1HNKQAD0WqOYL8jXqUA==
@@ -6296,6 +6296,11 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
+eslint-config-prettier@^8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
+  integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
+
 eslint-config-react-app@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-7.0.0.tgz#0fa96d5ec1dfb99c029b1554362ab3fa1c3757df"
@@ -6389,7 +6394,7 @@ eslint-plugin-react-hooks@^4.3.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.3.0.tgz#318dbf312e06fab1c835a4abef00121751ac1172"
   integrity sha512-XslZy0LnMn+84NEG9jSGR6eGqaZB3133L8xewQo3fQagbQuGt7a63gf+P1NGKZavEYEC3UXaWEAA/AqDkuN6xA==
 
-eslint-plugin-react@^7.27.1:
+eslint-plugin-react@^7.27.1, eslint-plugin-react@^7.28.0:
   version "7.28.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.28.0.tgz#8f3ff450677571a659ce76efc6d80b6a525adbdf"
   integrity sha512-IOlFIRHzWfEQQKcAD4iyYDndHwTQiCMcJVJjxempf203jnNLUnW34AXLrV33+nEXoifJE2ZEGmcjKPL8957eSw==
@@ -6468,7 +6473,7 @@ eslint-webpack-plugin@^3.1.1:
     normalize-path "^3.0.0"
     schema-utils "^3.1.1"
 
-eslint@^8.3.0:
+eslint@^8.3.0, eslint@^8.7.0:
   version "8.7.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.7.0.tgz#22e036842ee5b7cf87b03fe237731675b4d3633c"
   integrity sha512-ifHYzkBGrzS2iDU7KjhCAVMGCvF6M3Xfs8X8b37cgrUlDt6bWRTpRh6T/gtSXv1HJ/BUGgmjvNvOEGu85Iif7w==
@@ -7751,6 +7756,11 @@ human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
+
+husky@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-6.0.0.tgz#810f11869adf51604c32ea577edbc377d7f9319e"
+  integrity sha512-SQS2gDTB7tBN486QSoKPKQItZw97BMOd+Kdb6ghfpBc0yXyzrddI0oDV5MkDAbuB4X2mO3/nj60TRMcYxwzZeQ==
 
 iconv-lite@0.4.24:
   version "0.4.24"
@@ -11011,6 +11021,11 @@ prelude-ls@~1.1.2:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.0.tgz#b6a5bf1284026ae640f17f7ff5658a7567fc0d18"
   integrity sha512-kXtO4s0Lz/DW/IJ9QdWhAf7/NmPWQXkFr/r/WkR3vyI+0v8amTDxiaQSLzs8NBlytfLWX/7uQUMIW677yLKl4w==
+
+prettier@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
+  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
 
 pretty-bytes@^5.3.0, pretty-bytes@^5.4.1:
   version "5.6.0"

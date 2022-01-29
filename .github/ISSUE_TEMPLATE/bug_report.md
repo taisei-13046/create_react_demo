@@ -1,38 +1,56 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
-
+about: バグ報告
+title: "【バグ報告】_重要度_タイトル"
+labels: bug
+assignees: ""
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+<!--
+  issue作成時にバグの重要度によってラベルを追加してください
+  タイトルの「重要度」の部分をissueの重要度に応じて()の文字に変更してください
+  Bug Critical(CR): ローンチ後に出たらユーザーの商売が成り立たないレベルの出たらめっちゃヤバイやつ
+  Bug Majer(MA): システムとしては成立しているが業務の支障が大きい
+  Bug Original(OR): 特定の状況で出るもの.原因究明した上で対応必要かどうかは費用対効果で判断する
+  Typo: 微修正
+  Refactor: 問題はないが修正したいコード
+-->
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+<!--
+  ProjectsをBug Task Boardに指定してください。
+  アサインや原因調査の段階でprojectsのカードを移動させてください。
+-->
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## 詳細[](バグ内容の概要を記述する)
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## スクリーンショット[](スクリーンショットを貼れるようなバグの場合は添付する)
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## 報告者が想定する原因[](原因に見当のある場合は記述し,不明な場合は『不明』と記述する)
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+## 発生状況再現性[](どのようなフローによってバグの観測が可能になるか記述する)
 
-**Additional context**
-Add any other context about the problem here.
+1. アカウント情報[](passwordがなければ「なし」と記載)
+
+   - username:
+   - password:
+
+2. 発生画面[](画面名には『デバイスランキング画面』,『設定画面』,etc...を記述し,URLは開発環境で実施したURLを記述する)
+
+   - 画面名:
+   - URL:
+
+3. 実施を試みた操作[](テスト時の操作を記述する,etc...)
+
+4. 操作時の入力項目[](フォームに入力した値などを記述する)
+
+5. 結果
+
+## 端末情報[](下記の[e.g.]内の項目を自身の端末の情報に置き換える。)
+
+1. OS 種類(及びバージョン)[](e.g.MacOS,Windows10)
+
+2. ブラウザ種類(及びバージョン)[](e.g.Chrome,Safari)
+
+## 二次障害の懸念[](Issue作成者が担当者でない場合は記述不要)
+
+本 Issue 担当者は、対策案における変更差分の反映により影響が及ぶ可能性のある機能又は画面を列挙する。例として、UI/UX に対する影響や他の画面において反映されるべきデータが反映されないなどが挙げられる。無い場合は「なし」と記述する。どちらの場合も根拠を必ず述べる。

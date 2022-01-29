@@ -13,7 +13,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "typescript": "^4.5.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -24,7 +23,7 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "chromatic": "npx chromatic --project-token=e1f39150cdf3 --exit-zero-on-changes",
-    "lint": "prettier -c src/*.{ts,tsx} && eslint src/*.{ts,tsx}"
+    "lint": "prettier -c -w src/*.{ts,tsx} && eslint src/*.{ts,tsx}"
   },
   "browserslist": {
     "production": [
@@ -47,6 +46,7 @@
     "@storybook/node-logger": "^6.4.14",
     "@storybook/preset-create-react-app": "^4.0.0",
     "@storybook/react": "^6.4.14",
+    "@types/styled-components": "^5.1.21",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "chromatic": "^6.4.1",
@@ -56,6 +56,13 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^6.0.0",
     "prettier": "^2.5.1",
-    "webpack": "^5.67.0"
+    "stylelint": "^14.3.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
   }
 }

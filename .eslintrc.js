@@ -25,15 +25,5 @@ module.exports = {
     ecmaVersion: 12,
   },
   plugins: ["react", "@typescript-eslint"],
-  rules: {
-    "@typescript-eslint/ban-types": [
-      "error",
-      {
-        extendDefaults: true,
-        types: {
-          "{}": false,
-        },
-      },
-    ],
-  },
+  rules: {},
 }
